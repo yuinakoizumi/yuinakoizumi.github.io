@@ -85,27 +85,32 @@ header{
 .about h3{
 	margin:0 140px 0 300px;
 }
-
 .about p{
 	margin:0 140px 30px 300px;
  line-height: 2;
 }
-
 .skills{
 	background-color: #DCDEFA;
 	opacity: 0.9;
-	display: flex;
-
+	margin: 0 auto;
+	padding: 100px 200px;
 }
+.skills h2{
+	margin:0 140px 30px 300px;
+}
+.grid{
+	display: grid;
+	gap: 30px;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
 
 .portfolio{
 	background-color: #FFFFFF;
 	opacity: 0.9;
-
 }
 
 .contact{
 	background-color: #DCDEFA;
 	opacity: 0.9;
-
 }
