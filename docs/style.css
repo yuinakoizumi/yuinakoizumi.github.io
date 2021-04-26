@@ -103,8 +103,6 @@ header{
 	gap: 30px;
 	grid-template-columns: 1fr 1fr 1fr;
 }
-
-
 .portfolio{
 	background-color: #FFFFFF;
 	opacity: 0.9;
@@ -115,8 +113,21 @@ header{
 .portfolio h2{
 	margin:0 140px 30px 0;
 }
+.book-wrapper{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	min-height: 100vh;
+}
+.book-pic{
+	width: 120px;
+	height: 120px;
+}
 
 .contact{
 	background-color: #DCDEFA;
 	opacity: 0.9;
+
 }
