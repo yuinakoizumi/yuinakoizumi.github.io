@@ -49,7 +49,7 @@
 	</div>
 	<div class="skills" id="skills">
 		<h2>SKILLS</h2>
-		<div class="wrapper grid">
+		<div class="wrapper grid-skills">
 			<div class="item">
 				<img src="img/file_type_html_icon_130541.png" alt="HTML5">
 				<img src="img/file_type_css_icon_130661.png" alt="CSS3">
@@ -90,13 +90,18 @@
 				<h3>Docker</h3>
 				<p>開発環境として利用可能です。</p>
 			</div>
+			<div class="item">
+				<img src="img/git_original_wordmark_logo_icon_146510.png" alt="">
+				<h3>GitHub</h3>
+				<p>Git-flowのルールに則ったプロジェクト管理を行えます。数人規模でのチーム開発を行うことが可能です。</p>
+			</div>
 		</div>
 	</div>
 
 	<div class="portfolio wrapper" id="portfolio">
 		<h2>PORTFOLIO</h2>
 		<h3>学習してきた本たち</h3>
-		<div class="book-wrapper">
+		<div class="wrapper grid-books">
 			<div class="book-pic">
 				<img src="img/1.jpg" alt="book">
 			</div>
@@ -155,23 +160,41 @@
 				<img src="img/20.jpg" alt="book">
 			</div>
 		</div>
-		<h3>映画館予約サイト</h3>
-		<p>チーム開発にて制作しました</p>
-
-		<h3>オークションサイト</h3>
-		<p>CakePHP3にて作成。</p>
-
-		<h3>タスクリスト</h3>
-
+		<div class="team wrapper">
+			<h3>映画館予約サイト</h3>
+			<p>チーム開発にて制作しました。</p>
+			<div class="quel-cinemas">
+				<img src="img/quel-cinemas-top.png" alt="cinemas">
+				<img src="img/quel-cinemas.png" alt="cinemas">
+				<img src="img/dev-er.png" alt="ER図">
+			</div>
+			<div class="subject wrapper">
+				<div class="auction">
+					<h3>オークションサイト</h3>
+					<p>CakePHP3にて作成。</p>
+					<img src="img/auction.png" alt="auction">
+				</div>
+				<div class="weather">
+					<h3>天気予報API</h3>
+					<p>Ajaxを用いて天気APIから、プルダウンで選択した地域の天気を取得、ブラウザに表示。</p>
+					<img src="img/weather-api.png" alt="API天気情報">
+				</div>
+				<div class="toggle">
+					<h3>学習時間実績</h3>
+					<img src="img/IMG_4645.jpg" alt="toggle">
+					<img src="img/IMG_4644.jpg" alt="toggle">
+				</div>
+			</div>
+		</div>
 	</div>
-	<div class="contact" id="contact">
+	<div class="contact wrapper" id="contact">
 		<h2>CONTACT</h2>
 		<form
 			action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeYGRgL-dA3ugoMyKxgDU5fbtev22aSm8STglCkq0F8JFd-mQ/formResponse"
 			method="post">
-			<input type="text" name="YPqjbf" placeholder="Your Name">
-			<input type="email" name="YPqjbf" placeholder="Your Email">
-			<textarea name="YPqjbf" rows="5" cols="30" placeholder="messages..."></textarea>
+			<input type="text" name="entry.1633920210" placeholder="Your Name">
+			<input type="email" name="entry.227649005" placeholder="Your Email">
+			<textarea name="entry.1846923513" rows="5" cols="30" placeholder="messages..."></textarea>
 			<button type="submit" name="submit" class="btn btn-info ">Submit</button>
 		</form>
 	</div>
