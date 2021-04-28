@@ -169,7 +169,8 @@ gap: 3%;
 .contact{
 	background-color: #DCDEFA;
 	opacity: 0.9;
-	padding: 10% 20%;
+	padding: 2% 20%;
+	text-align: center;
 }
 .contact h2{
 	margin:0 5% 5% 0;
@@ -193,7 +194,7 @@ gap: 3%;
 	border:3px solid #9944cc;
 	width: 100px;
 	background-color: #DEFBF8;
-	margin: 0 auto;
+	margin: 20px auto;
 }
 .contact button:hover{
 	opacity: 0.4;
